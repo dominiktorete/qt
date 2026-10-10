@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>402</width>
-    <height>278</height>
+    <height>350</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,8 +18,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>0</width>
-    <height>0</height>
+    <width>400</width>
+    <height>350</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -35,6 +35,12 @@
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QGroupBox" name="gB_Stopwatch">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>250</height>
+       </size>
+      </property>
       <property name="title">
        <string>Stopwatch</string>
       </property>
